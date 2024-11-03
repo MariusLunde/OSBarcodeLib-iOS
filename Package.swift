@@ -19,7 +19,7 @@ let package = Package(
             dependencies: [
                 .product(name: "OSBarcodeLib", package: "OSBarcodeLib-iOS")
             ],
-            path: "Sources"  // Specify the path to your source files here
+            path: "OSBarcodeLib"  // Specify the path to your source files here
         )
     ]
 )
