@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "OSBarcodeLib",
+    name: "OSBarcodeLib-iOS",
     platforms: [
         .iOS(.v13)  // Specify the minimum iOS version you want to support
     ],
@@ -15,9 +15,9 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "OSBarcodeLib",
+            name: "OSBarcodeLib-iOS",
             dependencies: [
-                .product(name: "OSBarcodeLib", package: "OSBarcodeLib-iOS")
+                .product(name: "OSBarcodeLib-iOS", package: "OSBarcodeLib-iOS")
             ],
             path: "OSBarcodeLib"  // Specify the path to your source files here
         )
