@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "OSBarcodeLib",
     platforms: [
-        .iOS(.v11) // Set the minimum iOS version
+        .iOS(.v13) // Set the minimum iOS version
     ],
     products: [
         .library(
