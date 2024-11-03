@@ -14,7 +14,6 @@ let package = Package(
     ],
     dependencies: [
         // Add any additional dependencies if required
-        .package(url: "https://github.com/OutSystems/OSBarcodeLib-iOS.git", branch: "main")
     ],
     targets: [
         .target(
