@@ -18,8 +18,7 @@ let package = Package(
     targets: [
         .target(
             name: "OSBarcodeLib",
-            path: "Sources/OSBarcodeLib",
-            exclude: ["Info.plist"], // Exclude files that aren't needed
+            path: "Sources/OSBarcodeLib"
         ),
         .testTarget(
             name: "OSBarcodeLibTests",
