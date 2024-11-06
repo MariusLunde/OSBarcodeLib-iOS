@@ -20,9 +20,6 @@ let package = Package(
             name: "OSBarcodeLib",
             path: "Sources/OSBarcodeLib",
             exclude: ["Info.plist"], // Exclude files that aren't needed
-            resources: [
-                .process("Resources") // If your library includes images or other resources, include them here
-            ]
         ),
         .testTarget(
             name: "OSBarcodeLibTests",
